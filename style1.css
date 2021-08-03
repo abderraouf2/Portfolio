@@ -1,0 +1,78 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+html, body{
+  height: 100%;
+  font-size: 1.5em;
+  background-color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  margin: 50px;
+  justify-content: center; 
+  animation: 1s ease-out 0s 1 slideFromTop;
+}
+p{
+  color: white;
+  font-size: .5em;
+  padding-left: 5%;
+  padding-bottom: 30px;
+}
+h3{
+  color: white;
+  padding-left: 5%;
+  padding-bottom: 30px;
+}
+ h4{
+  color: red;
+  font-size: .7em;
+  padding-left: 5%;
+  padding-bottom: 30px;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#logo{
+  margin: 5px;
+  width: 4rem;
+  height: 4rem;
+  border-bottom: 5px solid rgb(28, 68, 48);
+}
+nav{
+  height: 5%;
+}
+.logo{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 600px) {
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+  }  
+}
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-1000%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
