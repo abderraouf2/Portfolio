@@ -41,6 +41,7 @@ section{
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-right: 5%;
 }
 #logo:hover{
   transform: scale(1.05);
