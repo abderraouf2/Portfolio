@@ -122,11 +122,13 @@ a{
   body,html{
     padding-left: 2%;
     font-size: large;
+    padding-right: 2%;
   }
-  .navbar{
+  /* .navbar{
     height: 10%;
     margin-bottom: 10px;
-  }
+    margin-right: 20px;
+  } */
   h1{
     font-size: larger;
       margin-top: 10%;
@@ -141,10 +143,10 @@ a{
     padding-left: 2%;
     font-size: large;
   }
-  .navbar{
+  /* .navbar{
     height: 10%;
     margin-bottom: 10px;
-  }
+  } */
   h1{
     font-size: larger;
     margin-top: 10%;
