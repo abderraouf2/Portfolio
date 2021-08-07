@@ -10,7 +10,7 @@ html, body{
 }
 
 .container{
-  height: 95%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,7 @@ h1{
   color: white;
   margin: 50px;
   justify-content: center; 
+  font-weight: 170;
   animation: 1s ease-out 0s 1 slideFromTop;
 }
 p{
@@ -26,21 +27,24 @@ p{
   font-size: .5em;
   padding-left: 5%;
   padding-bottom: 30px;
+  font-weight: 150;
 }
 h3{
   color: white;
   padding-left: 5%;
   padding-bottom: 30px;
+  font-weight: 150;
 }
  h4{
-  color: red;
+  color: rgb(83, 31, 182);
   font-size: .7em;
   padding-left: 5%;
   padding-bottom: 30px;
+  font-weight: 150;
 }
 a{
   text-decoration: none;
-  color: red;
+  color: rgb(83, 31, 182);
 }
 footer{
   display: flex;
@@ -49,12 +53,19 @@ footer{
 }
 #logo{
   margin: 5px;
-  width: 4rem;
-  height: 4rem;
-  border-bottom: 5px solid rgb(28, 68, 48);
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 1px 5px 5px 0px rgb(47, 31, 139) ;
+  transition: .5s;
+}
+#logo:hover{
+  transform: scale(1.05);
 }
 nav{
   height: 5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .logo{
   width: 100%;
@@ -63,8 +74,9 @@ nav{
 }
 @media only screen and (max-width: 600px) {
   footer{
+    font-size: large;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: space-around;
   }  
 }
