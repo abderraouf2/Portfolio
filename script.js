@@ -35,9 +35,12 @@ const mobileTap=(x)=>{
     let a=document.getElementById("tap");
       a.innerHTML="show";
     body.addEventListener("click",function(){
-      hello.innerHTML="PROJECTS,";  
+      hello.innerHTML="PROJECTS,";
+      hello.style.marginTop="10%";  
       I.innerHTML="ABOUT,";
+      I.style.marginTop="10%";
       abd.innerHTML="CONTACT";
+      abd.style.marginTop="10%";
     })
     let count=0;
     count++;
